@@ -1,5 +1,16 @@
 # @ai-sdk/harness-claude-code
 
+## 1.0.172
+
+### Patch Changes
+
+- 0808bf4: fix(harness-claude-code): preserve host tool numeric bounds, string lengths, array item counts, and defaults in Zod schemas
+- Updated dependencies [033f8d9]
+- Updated dependencies [61a315e]
+- Updated dependencies [6eab0f7]
+  - @ai-sdk/harness@1.0.168
+  - @ai-sdk/provider-utils@5.0.71
+
 ## 1.0.171
 
 ### Patch Changes

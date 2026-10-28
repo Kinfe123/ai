@@ -1,5 +1,15 @@
 # @ai-sdk/harness
 
+## 1.0.168
+
+### Patch Changes
+
+- 033f8d9: fix(harness): preserve execution-denied outputs for denied host tool calls without invoking the tool's `toModelOutput` converter
+- 6eab0f7: Fix turns hanging when a built-in tool approval and a host tool call share an assistant message. Pause for the approval without waiting for runtime echoes of completed host tools, preserving their results and original call metadata across consecutive approval pauses and session resumes until the runtime echo arrives, without executing them again or emitting duplicate results.
+- Updated dependencies [61a315e]
+  - @ai-sdk/provider-utils@5.0.71
+  - ai@7.0.157
+
 ## 1.0.167
 
 ### Patch Changes
